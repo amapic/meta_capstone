@@ -14,7 +14,10 @@ const App = () => {
   return (
     <>
       <Layout>
-        <Routes>
+        <div style={{height:"100vh"}}>
+        AA
+        </div>
+        {/* <Routes>
           <Route path={pages.get('home').path} element={<Home />} />
           <Route 
             path={pages.get('about').path} 
@@ -38,7 +41,7 @@ const App = () => {
             element={<UnderConstruction />} 
           />
           <Route path="*" element={<NotFound />} />
-        </Routes>
+        </Routes> */}
       </Layout>
     </>
   );
